@@ -19,5 +19,9 @@ print(b.shape)
 print(g.shape)
 print(r.shape)
 
+# Merging blue , green and red scale images to get the original one 
+merged = cv.merge([b,g,r])
+cv.imshow('Merged Image', merged)
+
 
 cv.waitkey(0)
