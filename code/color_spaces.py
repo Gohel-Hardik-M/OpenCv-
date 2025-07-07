@@ -19,6 +19,21 @@ cv.imshow('LAB',lab)
 rgb = cv.cvtColor(img,cv.COLOR_BGR2RGB)
 cv.imshow('RGB',rgb)
 
+
+# HSV image to BGR Image (original Image)
+hsv_bgr_img = cv.cvtCOlor(hsv, cv.COLOR_HSV2BGR)
+cv.imshow('HSV TO BGR IMG',hsv_bgr_img)
+
+#same way we can convert LAB image to BGR image too 
+
+# converting LAB image to BGR image 
+lab_bgr_img = cv.cvtColor(lab, cv.COLOR_LAB2BGR)
+cv.imshow("LAB TO BGR IMG",lab_bgr_img)
+
+
+
+
+
 cv.waitkey(0)
 
 
