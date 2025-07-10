@@ -18,8 +18,8 @@ median = cv.medianBlur(img,3)
 cv.imshow("Median Blur",median)
 
 # 4th method -->Bilateral 
-bilatera; = cv.bilateralFilter(img,5,15, 15 )
-
+bilateral = cv.bilateralFilter(img,5,15, 15 )
+cv.imshow("Bilateral Image",bilateral)
 cv.waitKey(0)
 
 
