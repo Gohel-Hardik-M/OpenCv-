@@ -11,6 +11,6 @@ cv.imshow('GRAY IMAGE',gray)
 threshold, thresh = cv.threshold(gray,150,255, cv.THRESH_BINARY)
 cv.imshow('simple thresholded',thresh)
 
-
+ 
 
 cv.waitKey(0)
