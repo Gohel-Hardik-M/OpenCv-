@@ -4,7 +4,7 @@ img = cv.imread('Photos/war.jpg')
 cv.imshow('Original Image',img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-cv.imshow('GRAY IMAGE',gray)
+cv.imshow('GRAY IMAGE',gray) 
 
 
 #Simple THresholding 
