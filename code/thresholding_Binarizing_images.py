@@ -14,6 +14,14 @@ cv.imshow('GRAY IMAGE',gray)
 threshold, thresh = cv.threshold(gray,150,255, cv.THRESH_BINARY)
 cv.imshow('simple thresholded',thresh)
 
+# Inverse THresholding 
+threshold , thresh_inv = cv.threshold(gray,150,255, cv.THRESH_BINARY_INV)
+cv.imshow('Inverse THresholded IMAGE',thresh_inc)
+
+#Adaptive THresholding 
+adaptive_thresh = cv.adaptiveThreshold(gray , 255, cv.ADAPTIVE_THRESH_MEAN_C, cv.THRESH_BINARY_INV , 11,9)
+cv.imshow('Adaptive Thresh Image',adaptive_thresh)
+
  
 
 cv.waitKey(0)
