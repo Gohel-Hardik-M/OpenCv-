@@ -8,7 +8,7 @@ Each file here represents a concept I explored while learning **Computer Vision*
 
 ## 📌 Topics Covered
 - Reading and displaying images
-- Color channels and color spaces
+- Color channels and color spaces 
 - Masking
 - Blurring techniques
 - Bitwise operations
