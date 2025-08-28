@@ -11,7 +11,7 @@ Each file here represents a concept I explored while learning **Computer Vision*
 - Color channels and color spaces 
 - Masking
 - Blurring techniques
-- Bitwise operations
+- Bitwise operations   
 - Thresholding & Image binarization
 - Edge detection (Basic & Advanced)
 - Histogram computation
